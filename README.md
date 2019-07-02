@@ -1,5 +1,11 @@
 ![](image/JPExport2.png)
 
+# Pod
+```
+pod 'JPExport', :configurations => ['Debug']
+```
+用于`Debug`模式下
+
 ### JPExport 仅用于网络数据 responseObject 解析生成 property 。
 
 Mac 版、Swift版待续…
