@@ -11,7 +11,7 @@
 @implementation JPExport
 
 + (NSString *)exportFromDictionary:(NSDictionary *)dictionary {
-    return [self exportFromDictionary:dictionary removeUnderLine:YES];
+    return [self exportFromDictionary:dictionary removeUnderLine:NO];
 }
 
 + (NSString *)exportFromDictionary:(NSDictionary *)dictionary
